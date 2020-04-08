@@ -53,6 +53,7 @@ sudo apt-get install python-tk
 ## Running the program
 
 1. Eksekusi program dari terminal menggunakan cara berikut:
+
    A. Untuk Windows
    Cukup eksekusi run.bat
 
