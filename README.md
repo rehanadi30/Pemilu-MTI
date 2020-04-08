@@ -5,18 +5,20 @@ Aplikasi untuk pemilu
 ## Getting Started
 
 Ini adalah aplikasi yang digunakan oleh Himpunan MTI saat memilih ketua himpunan periode 2020-2021. 
-Aplikasi ini bisa berjalan di ubuntu, mac, ataupun windows.
+Aplikasi ini bisa berjalan dengan optimal di windows dengan monitor 1920x1080.
 
 ### Prerequisites
 
 1. Python. 
    ```
-   Program ini ditulis menggunakan Python 2. Semua Python di atas versi Python 2.7 (termasuk Python 3) akan bisa menggunakan program ini. Harap diperhatikan untuk Ubuntu, Python 2 sudah terpasang secara default
+   Program ini ditulis menggunakan Python 3
    ```
 2. Tkinter.
    ```
    Sebuah modul dasar untuk mengaktifkan GUI pada program Python
    ```
+   
+3. ImageTK
 
 ### Installing
 
@@ -28,12 +30,6 @@ sudo apt-get update
 sudo apt-get install python3
 ```
 
-Sementara untuk Python 2, gunakan command ini
-
-```
-sudo apt-get update
-sudo apt-get install python
-```
 2. Tkinter
 
 Untuk versi Python 3, gunakan command ini
@@ -42,10 +38,10 @@ Untuk versi Python 3, gunakan command ini
 sudo apt-get install python3-tk
 ```
 
-Sementara untuk versi Python 2, gunakan command ini
+3. ImageTk
 
 ```
-sudo apt-get install python-tk
+sudo apt-get install python3-pil.imagetk
 ```
 
 
@@ -53,24 +49,14 @@ sudo apt-get install python-tk
 ## Running the program
 
 1. Eksekusi program dari terminal menggunakan cara berikut:
-
-   A. Untuk Windows
    
-   Cukup eksekusi run.bat
-
-   B. Untuk Ubuntu dan Macintosh
+   a. Cukup eksekusi run.bat
    
-   Eksekusi perintah berikut pada folder src
-
-   ```
-   python pemiluMTI.py
-   ```
+   b. Eksekusi perintah berikut pada folder src
    
-   atau
-   
-   ```
-   python3 pemiluMTI.py
-   ```
+      ```
+      python3 pemiluMTI.py
+      ```
 
 2. Masukkan token panitia di terminal. Token ini dapat diubah di program python utama. 
    Token default: "pemiluskuy"
