@@ -55,12 +55,21 @@ sudo apt-get install python-tk
 1. Eksekusi program dari terminal menggunakan cara berikut:
 
    A. Untuk Windows
+   
    Cukup eksekusi run.bat
 
    B. Untuk Ubuntu dan Macintosh
+   
+   Eksekusi perintah berikut pada folder src
 
    ```
    python pemiluMTI.py
+   ```
+   
+   atau
+   
+   ```
+   python3 pemiluMTI.py
    ```
 
 2. Masukkan token panitia di terminal. Token ini dapat diubah di program python utama. 
