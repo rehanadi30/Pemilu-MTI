@@ -52,14 +52,27 @@ sudo apt-get install python-tk
 
 ## Running the program
 
-A. Windows
-Cukup eksekusi run.bat
+1. Eksekusi program dari terminal menggunakan cara berikut:
+   A. Untuk Windows
+   Cukup eksekusi run.bat
 
-B. Ubuntu
+   B. Untuk Ubuntu dan Macintosh
 
-```
-python pemiluMTI.py
-```
+   ```
+   python pemiluMTI.py
+   ```
+
+2. Masukkan token panitia di terminal. Token ini dapat diubah di program python utama. 
+   Token default: "pemiluskuy"
+
+   Note: Token sebaiknya hanya diketahui oleh panitia
+
+3. Saat sudah masuk ke layar utama, silakan pilih pilihan Anda
+4. Semua data voting disimpan di CSV yang bernama "pemilu.csv"
+
+## Screenshot
+
+![Layar utama aplikasi](Screenshot.png)
 
 ## Built With
 
@@ -73,8 +86,7 @@ python pemiluMTI.py
 ## Acknowledgments
 
 * For Bussiness enquiries, please contact to one of these:
-1. Line : rehanadi30
+1. Line : rehanadi30 (ID)
 2. Email :  - rehanadi457@gmail.com (Main Email)
-            - 13518061@std.stei.itb.ac.id
-            - rehan@proved-in.com
+            - 13518061@std.stei.itb.ac.id (Students Email)
 3. LinkedIn : [Click here to open Linked In](https://www.linkedin.com/in/rehan-adi/)
